@@ -398,7 +398,7 @@ a:hover, a:focus, a:active {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -408,7 +408,7 @@ a:hover, a:focus, a:active {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
   }
 }
 
