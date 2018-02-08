@@ -1,0 +1,76 @@
+/* Custom Nav Styles */
+.menu-toggle {
+  background: $gray-600;
+  &:hover {
+    color: $white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  &.active {
+    // background-color: $white;
+    // color: $gray-900;
+  }
+}
+
+#sidebar-wrapper {
+  background: $secondary;
+}
+
+/* Custom Header Styles */
+
+.masthead {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
+
+.logo {
+  min-height: 30rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('https://raw.githubusercontent.com/amorphitec/amorphitec-logo/master/amorphitec_icon.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-width: 992px) {
+    height: 100vh;
+  }
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+  color: #fff;
+  border-color: $gray-600;
+  background-color: $gray-600;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  color: #fff;
+  border-color: $gray-800;
+  background-color: $gray-800;
+}
