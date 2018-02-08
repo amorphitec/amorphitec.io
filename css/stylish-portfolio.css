@@ -121,7 +121,7 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #C7383B;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -204,7 +204,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #C7383B;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -288,7 +288,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(199, 56, 59, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -305,44 +305,44 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #C7383B;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #9f2d2f;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #C7383B;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #9f2d2f;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #C7383B !important;
+  border-color: #C7383B !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #9f2d2f !important;
+  border-color: #9f2d2f !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #6C6D70 !important;
+  border-color: #6C6D70 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #535456 !important;
+  border-color: #535456 !important;
 }
 
 .btn-dark {
@@ -355,13 +355,93 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #C7383B !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #C7383B !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #6C6D70 !important;
+}
+
+/* Custom Nav Styles */
+.menu-toggle {
+  background: #6c6d70;
+}
+
+.menu-toggle:hover {
+  color: #fff;
+}
+
+.menu-toggle:hover {
+  background: #343a40;
+}
+
+#sidebar-wrapper {
+  background: #6C6D70;
+}
+
+/* Custom Header Styles */
+.masthead {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.logo {
+  min-height: 30rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://raw.githubusercontent.com/amorphitec/amorphitec-logo/master/amorphitec_icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    height: 100vh;
+  }
+}
+
+/* Custom Button Styles */
+.btn-dark {
+  color: #fff;
+  border-color: #6c6d70;
+  background-color: #6c6d70;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  color: #fff;
+  border-color: #343a40;
+  background-color: #343a40;
 }
